@@ -1,0 +1,42 @@
+* {border:0; padding:0; margin:0; list-style: none; font-size: 18px; font-weight:normal; }
+
+body {
+  background: #777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;	
+}
+
+
+li h1, li h2, li h3 {display:inline;}
+
+header, nav, section, article, aside, footer  {
+	padding:15px;
+	background-color: #ebebeb;
+	text-align: center;
+	margin:10px;
+}
+
+
+article { background: #777;}
+
+li {
+	 padding:15px;
+	 margin: 5px;
+	 margin-top: 10px;
+	 background: #ebebeb;
+}
+
+.row { display:flex; }
+
+.row section {
+	width: 490px;
+	flex: 0 0 490;
+}
+
+.row aside { flex: 1; }
+
+
